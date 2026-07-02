@@ -20,6 +20,7 @@ export default function PanelC({ piece }: PanelCProps) {
             fill
             className="object-cover object-center"
             sizes="(min-width: 768px) 45vw, 90vw"
+            quality={90}
           />
         </div>
 

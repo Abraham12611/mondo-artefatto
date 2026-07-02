@@ -35,6 +35,7 @@ export default function PanelA({ piece }: PanelAProps) {
             fill
             className="object-cover"
             sizes="(min-width: 768px) 40vw, 90vw"
+            quality={90}
             priority
           />
         </div>

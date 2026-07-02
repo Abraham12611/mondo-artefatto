@@ -33,6 +33,7 @@ export default function PanelB({ piece }: PanelBProps) {
             fill
             className="object-cover"
             sizes="(min-width: 768px) 45vw, 90vw"
+            quality={90}
           />
         </div>
       </div>
