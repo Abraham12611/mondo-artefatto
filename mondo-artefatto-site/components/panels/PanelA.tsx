@@ -28,14 +28,14 @@ export default function PanelA({ piece }: PanelAProps) {
 
       <div className="flex flex-col md:flex-row items-center gap-12 max-w-screen-xl w-full">
         {/* Artwork */}
-        <div className="relative w-full max-w-sm md:max-w-md aspect-[4/5] rounded overflow-hidden flex-shrink-0 mx-auto">
+        <div className="relative w-full md:max-w-xl aspect-[4/3] rounded overflow-hidden flex-shrink-0 mx-auto">
           <Image
             src={piece.image}
             alt={piece.title}
             fill
-            className="object-cover"
-            sizes="(min-width: 768px) 40vw, 90vw"
-            quality={90}
+            className="object-contain"
+            sizes="(min-width: 768px) 50vw, 95vw"
+            unoptimized
             priority
           />
         </div>

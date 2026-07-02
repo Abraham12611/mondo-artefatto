@@ -19,6 +19,7 @@ export default function PanelE({ piece }: PanelEProps) {
             fill
             className="object-cover opacity-20"
             sizes="100vw"
+            unoptimized
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-paper/60" aria-hidden="true" />

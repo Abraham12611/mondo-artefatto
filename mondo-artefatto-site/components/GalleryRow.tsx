@@ -34,7 +34,7 @@ export default function GalleryRow({ piece, index }: GalleryRowProps) {
       <div className={`${isEven ? "md:order-1" : "md:order-2"}`}>
         <Link
           href={`/pieces/${piece.slug}`}
-          className="block relative w-full aspect-[4/5] rounded overflow-hidden group"
+          className="block relative w-full aspect-[4/3] rounded overflow-hidden group"
           tabIndex={-1}
           aria-hidden="true"
         >
@@ -42,8 +42,9 @@ export default function GalleryRow({ piece, index }: GalleryRowProps) {
             src={piece.image}
             alt={piece.title}
             fill
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+            className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.03]"
             sizes="(min-width: 768px) 45vw, 90vw"
+            unoptimized
           />
         </Link>
       </div>

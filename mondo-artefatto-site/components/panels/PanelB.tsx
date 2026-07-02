@@ -26,14 +26,14 @@ export default function PanelB({ piece }: PanelBProps) {
         </div>
 
         {/* Image */}
-        <div className="relative w-full aspect-[4/5] rounded overflow-hidden">
+        <div className="relative w-full aspect-[4/3] rounded overflow-hidden">
           <Image
             src={piece.image}
             alt={`${piece.title} — surface view`}
             fill
-            className="object-cover"
+            className="object-contain"
             sizes="(min-width: 768px) 45vw, 90vw"
-            quality={90}
+            unoptimized
           />
         </div>
       </div>

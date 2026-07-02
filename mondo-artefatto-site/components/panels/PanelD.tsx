@@ -33,7 +33,7 @@ export default function PanelD({ piece }: PanelDProps) {
             fill
             className="object-cover object-center"
             sizes="(min-width: 768px) 45vw, 90vw"
-            quality={90}
+            unoptimized
           />
         </div>
       </div>

@@ -8,7 +8,7 @@ export const pieces: Piece[] = [
     eyebrow: "MUSEUM DISPLAY · PHOTOGRAPH",
     medium:  "Museum display · Photograph",
     teaser:  "A wall of catalogued objects, each one confidently named.",
-    image:   "/pieces/Nomenclatura/Nomenclatura.png",
+    image:   "/pieces/Nomenclatura/Nomenclatura.webp",
     images:  ["/pieces/Nomenclatura/Nomenclatura-1.png", "/pieces/Nomenclatura/Nomenclatura-2.png", "/pieces/Nomenclatura/Nomenclatura-3.png"],
     copy: {
       glance:
