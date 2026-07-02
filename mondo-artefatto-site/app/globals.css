@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Palette ── */
+  --color-paper:          #F3EFE6;
+  --color-paper-deep:     #EAE4D6;
+  --color-ink:            #20211E;
+  --color-ink-soft:       #4A4C46;
+  --color-taupe-green:    #555940;
+  --color-soft-green:     #879A77;
+  --color-pale-blue:      #D7E5F0;
+  --color-pale-blue-ink:  #5B7C93;
+  --color-beige:          #C9AD93;
+  --color-line:           #D8D2C4;
+
+  /* ── Fonts ── */
+  --font-display: var(--font-fraunces), 'Spectral', Georgia, serif;
+  --font-body:    var(--font-inter), system-ui, sans-serif;
+  --font-label:   var(--font-ibm-plex-mono), 'Space Mono', ui-monospace, monospace;
+}
+
+:root {
+  --font-fraunces:    'Fraunces';
+  --font-inter:       'Inter';
+  --font-ibm-plex-mono: 'IBM Plex Mono';
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #F3EFE6;
+  color: #20211E;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #F3EFE6;
+  color: #20211E;
+  font-family: var(--font-body);
+  min-height: 100dvh;
+}
+
+::selection {
+  background-color: #D7E5F0;
+  color: #20211E;
+}
+
+:focus-visible {
+  outline: 2px solid #879A77;
+  outline-offset: 2px;
+}
+
+@keyframes grow {
+  0%, 100% { transform: scaleY(0.3); opacity: 0.3; transform-origin: top; }
+  50%       { transform: scaleY(1);   opacity: 1;   transform-origin: top; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
