@@ -9,7 +9,7 @@ export const pieces: Piece[] = [
     medium:  "Museum display · Photograph",
     teaser:  "A wall of catalogued objects, each one confidently named.",
     image:   "/pieces/Nomenclatura/Nomenclatura.webp",
-    images:  ["/pieces/Nomenclatura/Nomenclatura-1.png", "/pieces/Nomenclatura/Nomenclatura-2.png", "/pieces/Nomenclatura/Nomenclatura-3.png"],
+    images:  ["/pieces/Nomenclatura/Nomenclatura-1.webp", "/pieces/Nomenclatura/Nomenclatura-2.webp", "/pieces/Nomenclatura/Nomenclatura-3.webp"],
     copy: {
       glance:
         "A cold museum wall, lined with small display niches. Each niche holds a different object. Each one has a neat brass plaque. It reads like a room where everything has already been understood.",
@@ -32,8 +32,8 @@ export const pieces: Piece[] = [
     eyebrow: "OIL · PORTRAIT",
     medium:  "Oil · Portrait",
     teaser:  "A portrait, framed exactly as it was meant to be seen.",
-    image:   "/pieces/Cornice/Cornice.png",
-    images:  ["/pieces/Cornice/Cornice-1.png", "/pieces/Cornice/Cornice-2.png", "/pieces/Cornice/Cornice-3.png"],
+    image:   "/pieces/Cornice/Cornice.webp",
+    images:  ["/pieces/Cornice/Cornice-1.webp", "/pieces/Cornice/Cornice-2.webp", "/pieces/Cornice/Cornice-3.webp"],
     copy: {
       glance:
         "A painted portrait of a person, held inside a frame. Calm, dignified, complete. The kind of image that tells you it has already decided what matters about this face.",
@@ -56,8 +56,8 @@ export const pieces: Piece[] = [
     eyebrow: "LOW-POLY RENDER · FIGURE",
     medium:  "Low-poly render · Figure",
     teaser:  "A quiet figure watching a small world under glass.",
-    image:   "/pieces/Riproduzione/Riproduzione.png",
-    images:  ["/pieces/Riproduzione/Riproduzione-1.png", "/pieces/Riproduzione/Riproduzione-2.png", "/pieces/Riproduzione/Riproduzione-3.png"],
+    image:   "/pieces/Riproduzione/Riproduzione.webp",
+    images:  ["/pieces/Riproduzione/Riproduzione-1.webp", "/pieces/Riproduzione/Riproduzione-2.webp", "/pieces/Riproduzione/Riproduzione-3.webp"],
     copy: {
       glance:
         "A quiet figure, rendered in soft, faceted, low-resolution shapes, like a memory from an old machine. Where the head should be, a sealed glass vessel holds a tiny world.",
@@ -80,8 +80,8 @@ export const pieces: Piece[] = [
     eyebrow: "OIL · STILL LIFE",
     medium:  "Oil · Still life",
     teaser:  "A lavish arrangement of fruit and flowers, flawless in front.",
-    image:   "/pieces/Corretto/Corretto.png",
-    images:  ["/pieces/Corretto/Corretto-1.png", "/pieces/Corretto/Corretto-2.png", "/pieces/Corretto/Corretto-3.png"],
+    image:   "/pieces/Corretto/Corretto.webp",
+    images:  ["/pieces/Corretto/Corretto-1.webp", "/pieces/Corretto/Corretto-2.webp", "/pieces/Corretto/Corretto-3.webp"],
     copy: {
       glance:
         "A lavish old painting of fruit and flowers on a marble table. Gold, silk, deep light. Beautiful in the way you are trained to accept instantly.",
@@ -104,8 +104,8 @@ export const pieces: Piece[] = [
     eyebrow: "PHOTOGRAPH · DOMESTIC",
     medium:  "Photograph · Domestic",
     teaser:  "A family photograph, framed and final on the sideboard.",
-    image:   "/pieces/Definitiva/Definitiva.png",
-    images:  ["/pieces/Definitiva/Definitiva-1.png", "/pieces/Definitiva/Definitiva-2.png", "/pieces/Definitiva/Definitiva-3.png"],
+    image:   "/pieces/Definitiva/Definitiva.webp",
+    images:  ["/pieces/Definitiva/Definitiva-1.webp", "/pieces/Definitiva/Definitiva-2.webp", "/pieces/Definitiva/Definitiva-3.webp"],
     copy: {
       glance:
         "A framed family photograph on a sideboard, in a warm and ordinary home. A group of people, posed together, complete.",
@@ -128,8 +128,8 @@ export const pieces: Piece[] = [
     eyebrow: "OIL · ALLEGORY",
     medium:  "Oil · Allegory",
     teaser:  "A serene figure in flowing drapery. Nothing more. Or so it seems.",
-    image:   "/pieces/Manofatto/Manofatto.png",
-    images:  ["/pieces/Manofatto/Manofatto-1.png", "/pieces/Manofatto/Manofatto-2.png", "/pieces/Manofatto/Manofatto-3.png"],
+    image:   "/pieces/Manofatto/Manofatto.webp",
+    images:  ["/pieces/Manofatto/Manofatto-1.webp", "/pieces/Manofatto/Manofatto-2.webp", "/pieces/Manofatto/Manofatto-3.webp"],
     copy: {
       glance:
         "A serene classical figure in flowing drapery, in a calm landscape. An old, beautiful painting about stillness and grace. Nothing more.",
@@ -152,7 +152,8 @@ export const pieces: Piece[] = [
     eyebrow: "COLLAGE · ARCHIVE",
     medium:  "Collage · Archive",
     teaser:  "A beautiful wall of filed photographs and papers.",
-    image:   "/pieces/reliquiario.jpg",
+    image:   "/pieces/Reliquiario/Reliquiario.webp",
+    images:  ["/pieces/Reliquiario/Reliquiario-1.webp", "/pieces/Reliquiario/Reliquiario-2.webp", "/pieces/Reliquiario/Reliquiario-3.webp"],
     copy: {
       glance:
         "A tall, beautiful wall of filed photographs and papers, gridded and precise. An archive, carefully kept. Order everywhere.",
@@ -175,8 +176,8 @@ export const pieces: Piece[] = [
     eyebrow: "MACRO · CONSERVATION",
     medium:  "Macro · Conservation",
     teaser:  "An old cracked painting, mid-restoration, cared for closely.",
-    image:   "/pieces/Ritocco/Ritocco.png",
-    images:  ["/pieces/Ritocco/Ritocco-1.png", "/pieces/Ritocco/Ritocco-2.png", "/pieces/Ritocco/Ritocco-3.png"],
+    image:   "/pieces/Ritocco/Ritocco.webp",
+    images:  ["/pieces/Ritocco/Ritocco-1.webp", "/pieces/Ritocco/Ritocco-2.webp", "/pieces/Ritocco/Ritocco-3.webp"],
     copy: {
       glance:
         "A close view of an old, cracked painting under restoration. Aged, careful, tended. The kind of image that means preservation.",
@@ -199,8 +200,8 @@ export const pieces: Piece[] = [
     eyebrow: "SCULPTURE · EDITORIAL COVER",
     medium:  "Sculpture · Editorial cover",
     teaser:  "A magazine cover. A perfect marble figure. Flawless, still.",
-    image:   "/pieces/Immobile/Immobile.png",
-    images:  ["/pieces/Immobile/Immobile-1.png", "/pieces/Immobile/Immobile-2.png", "/pieces/Immobile/Immobile-3.png"],
+    image:   "/pieces/Immobile/Immobile.webp",
+    images:  ["/pieces/Immobile/Immobile-1.webp", "/pieces/Immobile/Immobile-2.webp", "/pieces/Immobile/Immobile-3.webp"],
     copy: {
       glance:
         "A magazine cover. A flawless white marble figure, beautifully lit. The masthead reads still. The word timeless sits across the lower frame. A gorgeous, high-end cover.",
@@ -223,8 +224,8 @@ export const pieces: Piece[] = [
     eyebrow: "OIL · IMPRESSIONIST",
     medium:  "Oil · Impressionist",
     teaser:  "A landscape dissolving into light, holding on to almost nothing.",
-    image:   "/pieces/Residuo/Residuo.png",
-    images:  ["/pieces/Residuo/Residuo-1.png", "/pieces/Residuo/Residuo-2.png", "/pieces/Residuo/Residuo-3.png"],
+    image:   "/pieces/Residuo/Residuo.webp",
+    images:  ["/pieces/Residuo/Residuo-1.webp", "/pieces/Residuo/Residuo-2.webp", "/pieces/Residuo/Residuo-3.webp"],
     copy: {
       glance:
         "A soft landscape, dissolving into light. Water, haze, morning. Most of it is barely there.",
